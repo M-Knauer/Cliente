@@ -15,7 +15,7 @@ Maven como gerenciador de dependência, e Java como linguagem.
 Um cliente possui nome, CPF, renda, data de nascimento, e quantidade de filhos. A especificação da
 entidade Client é mostrada a seguir:
 
-      Client
+   Client
 - <<pk>> id : Long
 - name . String
 - cpf . String
@@ -26,8 +26,12 @@ entidade Client é mostrada a seguir:
 Seu projeto deverá fazer um seed de pelo menos 10 clientes com dados SIGNIFICATIVOS (não é para
 usar dados sem significado como "Nome 1", "Nome 2", etc.).
 Seu projeto deverá tratar as seguintes exceções:
+      
 • Id não encontrado (para GET por id, PUT e DELETE), retornando código 404.
+      
 • Erro de validação, retornando código 422 e mensagens customizada para cada campo inválido. As
   regras de validação são:
-    • Nome: não pode ser vazio
-    • Data de nascimento: não pode ser data futura
+      
+   • Nome: não pode ser vazio
+      
+   • Data de nascimento: não pode ser data futura
