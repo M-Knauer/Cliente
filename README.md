@@ -14,3 +14,5 @@ Cada cliente possui nome, CPF, renda, data de nascimento e quantidade de filhos.
 - children . Integer
 
 O projeto realiza um seed de pelo menos 10 clientes com dados significativos e utiliza exceções para tratar situações em que um id não é encontrado ou há erros de validação, retornando códigos de status HTTP 404 e 422, respectivamente. As regras de validação incluem a obrigatoriedade de nome e a data de nascimento não pode ser uma data futura.
+
+Projeto ainda em desenvolvimento
